@@ -1,0 +1,62 @@
+parameters:
+  - name: application.description
+    value: Python Flask Web Service application
+  - name: application.docker-registry.image.name
+    value: my-python-flask
+  - name: application.docker-registry.image.repo
+    value: library
+  - name: application.docker-registry.image.url
+    value: dev4-harbor.svc.dev4.demo10.superhub.io/library/my-python-flask
+  - name: application.docker-registry.serviceUrl
+    value: ''
+  - name: application.docker-registry.storage
+    value: local
+  - name: application.docker-registry.url
+    value: 'https://dev4-harbor.svc.dev4.demo10.superhub.io'
+  - name: application.docker-registry.username
+    value: admin
+  - name: application.ingress
+    value: my-python-flask.app.dev4.demo10.superhub.io
+  - name: application.name
+    value: my-python-flask
+  - name: application.namespace
+    value: applications
+  - name: application.path
+    value: /
+  - name: application.pullSecret.name
+    value: dev4-harbor-default-pullsecret
+  - name: application.replicas
+    value: '1'
+  - name: component.dex.okta.appId
+    value: 0oa342u227BWaWsTm2p7
+  - name: component.dex.okta.clientId
+    value: 0oa342u227BWaWsTm2p7
+  - name: component.dex.okta.clientSecret
+    value: C5jp0khDeNjp2vBEycCvOikMQHn-7X2oDPNoU3Lh
+  - name: component.dex.okta.issuer
+    value: 'https://agilestacks.okta.com'
+  - name: component.github.repository.name
+    value: my-python-flask
+  - name: component.github.repository.organization
+    value: mameshini
+outputs:
+  - name: application.description
+  - name: application.docker-registry.image.name
+  - name: application.docker-registry.image.repo
+  - name: application.docker-registry.image.url
+  - name: application.docker-registry.serviceUrl
+  - name: application.docker-registry.storage
+  - name: application.docker-registry.url
+  - name: application.docker-registry.username
+  - name: application.ingress
+  - name: application.name
+  - name: application.namespace
+  - name: application.path
+  - name: application.pullSecret.name
+  - name: application.replicas
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.clientSecret
+  - name: component.dex.okta.issuer
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
